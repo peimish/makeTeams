@@ -1,0 +1,31 @@
+{
+  "name": "makeTeam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peimish/makeTeams.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peimish/makeTeams/issues"
+  },
+  "homepage": "https://github.com/peimish/makeTeams#readme",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "@google/clasp": "^2.3.0",
+    "@types/google-apps-script": "^0.0.59",
+    "@types/node": "^12.7.5",
+    "global": "^4.4.0",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.3"
+  }
+}
