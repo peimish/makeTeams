@@ -1,7 +1,7 @@
 function copySheet() {
   var spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
   // 各シートから値をコピー
-  var sheet = spreadsheet.getSheetByName("グループ分け");
+  var sheet = spreadsheet.getSheetByName("createTeam");
   
   //非運転者列
   var non_drivers_last_row = counta(sheet, "A:A");
